@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+./node_modules
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Dependency directories
+bower_components/
+
+# Build artifacts
+dist/
+build/
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# Temporary files
+/tmp
+*.swp
+
+# VS Code settings
+.vscode/
+
+# macOS & Linux system files
+.DS_Store
+*.swp
+
+# Docker
+.dockerignore
+docker-compose.override.yml
