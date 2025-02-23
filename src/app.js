@@ -21,7 +21,7 @@ app.use(cors());
 
 // Routes
 app.get('/',(req,res)=>{
-    res.send('🔥🔥 live')
+    res.json({ message: '🔥🔥This is an API endpoint' });
 })
 app.use("/auth", authRoutes);
 
