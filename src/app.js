@@ -20,6 +20,9 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
+app.get('/',(req,res)=>{
+    res.send('🔥🔥 live')
+})
 app.use("/auth", authRoutes);
 
 // Error middleware
