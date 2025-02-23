@@ -3,7 +3,6 @@ import logger from "../utils/logger.js";
 
 export const connectDB = () => {
   const DB_URL = process.env.MONGO_URI;
-logger.info(DB_URL)
   mongoose
     .connect(DB_URL, {
       useNewUrlParser: true,
